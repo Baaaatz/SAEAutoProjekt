@@ -1,0 +1,17 @@
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\bin\Debug\net7.0-windows\SAE_Projekt_Auto.exe
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\bin\Debug\net7.0-windows\SAE_Projekt_Auto.deps.json
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\bin\Debug\net7.0-windows\SAE_Projekt_Auto.runtimeconfig.json
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\bin\Debug\net7.0-windows\SAE_Projekt_Auto.dll
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\bin\Debug\net7.0-windows\SAE_Projekt_Auto.pdb
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\obj\Debug\net7.0-windows\SAE_Projekt_Auto.csproj.AssemblyReference.cache
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\obj\Debug\net7.0-windows\SAE_Projekt_Auto.Form1.resources
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\obj\Debug\net7.0-windows\SAE_Projekt_Auto.csproj.GenerateResource.cache
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\obj\Debug\net7.0-windows\SAE_Projekt_Auto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\obj\Debug\net7.0-windows\SAE_Projekt_Auto.AssemblyInfoInputs.cache
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\obj\Debug\net7.0-windows\SAE_Projekt_Auto.AssemblyInfo.cs
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\obj\Debug\net7.0-windows\SAE_Projekt_Auto.csproj.CoreCompileInputs.cache
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\obj\Debug\net7.0-windows\SAE_Projekt_Auto.dll
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\obj\Debug\net7.0-windows\refint\SAE_Projekt_Auto.dll
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\obj\Debug\net7.0-windows\SAE_Projekt_Auto.pdb
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\obj\Debug\net7.0-windows\SAE_Projekt_Auto.genruntimeconfig.cache
+C:\Users\Dani\source\repos\SAE_Projekt_Auto\SAE_Projekt_Auto\obj\Debug\net7.0-windows\ref\SAE_Projekt_Auto.dll
