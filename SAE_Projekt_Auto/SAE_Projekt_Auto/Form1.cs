@@ -12,6 +12,10 @@ namespace SAE_Projekt_Auto
         //Marvin
 
         //Daniel
+        string startupPath = Environment.CurrentDirectory;
+        string dateiName = "AutoDatenbank.csv";
+        string dateiPfad;
+
         public Form1()
         {
             InitializeComponent();
@@ -22,9 +26,8 @@ namespace SAE_Projekt_Auto
 
         public void laden()
         {
-            string startupPath = Environment.CurrentDirectory;
-            string dateiName = "AutoDatenbank.csv";
-            string dateiPfad = Path.Combine(startupPath, dateiName);            //gibt den Pfad zurück, in dem die ausführbare Datei Anwendung liegt
+            
+            dateiPfad = Path.Combine(startupPath, dateiName);            //gibt den Pfad zurück, in dem die ausführbare Datei Anwendung liegt
 
 
             if (!File.Exists(dateiPfad))
@@ -71,7 +74,7 @@ namespace SAE_Projekt_Auto
                 string baujahr = tbBaujahr.Text;
                 string preis = tbPreis.Text;
 
-                Wagen neuesAuto = new Wagen
+                Wagen newAuto = new Wagen
                 {
                     Marke = marke,
                     Modell = modell,
@@ -79,7 +82,7 @@ namespace SAE_Projekt_Auto
                     Baujahr = baujahr,
                     Preis = preis
                 };
-                AutolisteSpeichern.Add(neuesAuto);
+                AutolisteSpeichern.Add(newAuto);
 
                 SchreibeInCSV(AutolisteSpeichern);
                 AutolisteSpeichern.RemoveAt(AutolisteSpeichern.Count - 1);
@@ -92,18 +95,18 @@ namespace SAE_Projekt_Auto
             }
         }
 
-        private void SchreibeInCSV(List<Wagen> autoliste)
+        private void SchreibeInCSV(List<Wagen> autolisteSpeichern)
         {
-            rtbAusgabe.Clear();   
+            rtbAusgabe.Clear();
 
-            string dateiPfad = "AutoDatenbank.csv";
+            dateiPfad = Path.Combine(startupPath, dateiName);
 
             // StreamWriter verwenden, um die CSV-Datei zu erstellen oder zu öffnen
             using (StreamWriter sw = new StreamWriter(dateiPfad,true))
             {       
 
                 // Daten jeder Zeile schreiben
-                foreach (Wagen auto in autoliste)
+                foreach (Wagen auto in autolisteSpeichern)
                 {
                     sw.WriteLine($"{auto.Marke},{auto.Modell},{auto.Kilometerstand},{auto.Baujahr},{auto.Preis}");
                 }
